@@ -17,23 +17,23 @@ public class Tecnologia {
     mp3Player.pausar();
     mp3Player.selecionarMusica();
 
-    System.out.println("*****IPOD******");
+    System.out.println("\n*****IPOD******");
 
     Telefone telefone = new Celular();
     telefone.ligar();
     telefone.atender();
     telefone.iniciarCorreioVoz();
 
-    System.out.println("*****Celular******");
+    System.out.println("\n*****Celular******");
 
     WebBrowser webBrowser = new Computador();
     webBrowser.exibirPagina();
     webBrowser.adicionarNovaAba();
     webBrowser.atualizarPagina();
 
-    System.out.println("*****Computador******");
+    System.out.println("\n*****Computador******");
 
-    System.out.println("*****Início IPHONE******");
+    System.out.println("\n*****Início IPHONE******");
 
     mp3Player = new SmartPhone();
     mp3Player.tocar();
@@ -50,6 +50,6 @@ public class Tecnologia {
     webBrowser.adicionarNovaAba();
     webBrowser.atualizarPagina();
 
-    System.out.println("*****Fim IPHONE******");
+    System.out.println("\n*****Fim IPHONE******");
   }
 }
